@@ -6,6 +6,11 @@ The main idea behind this project is to build a compact, battery-powered laser u
 
 The switch turns the laser on and off, while the TP4056 charging module manages battery charging.
 
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/1a18dfbf-19a7-41f3-b905-b7f7df13c260" />
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/17326cdd-ee53-4641-bbd8-47471d3fbc01" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/5bd9a6b6-5d2f-4b6a-b4b6-0e8ba351dfbd" />
+
+
 ## Features
 
 - Portable laser build
@@ -34,7 +39,8 @@ The switch turns the laser on and off, while the TP4056 charging module manages 
 
 I have added the basic connections below. You can use them as a reference while wiring your own portable laser.
 
-No circuit diagram has been provided for this build yet.
+<img width="1520" height="964" alt="image" src="https://github.com/user-attachments/assets/ca23e1ef-7971-454f-a43d-31d6601abb6b" />
+
 
 ### Main Connections
 
@@ -57,6 +63,14 @@ The switch is connected in series with the ground wire, so opening the switch br
 Use the **OUT+ and OUT−** terminals to power the laser when your TP4056 board has protection circuitry. The B+ and B− terminals are for the battery.
 
 The battery, charging board and laser must be connected with the correct polarity. Check the labels on your exact modules before powering the circuit.
+
+## CAD Model
+
+<img width="972" height="614" alt="image" src="https://github.com/user-attachments/assets/0a96c6e4-fe47-41d6-a1a9-09a80561b1da" />
+<img width="868" height="582" alt="image" src="https://github.com/user-attachments/assets/2017bcf5-fbb3-4a02-93e2-76453783a4db" />
+
+you might see some components overlapping but actuallly thats done on purpose like they models i exported some where not accurate
+so the models fits the reall life components i had to overlap them
 
 ## How to Build this...
 
@@ -149,13 +163,21 @@ When the switch is open, the circuit is interrupted and the laser turns off.
 The basic flow is:
 
 Li-ion Battery
+
    ↓
+   
 TP4056 Protected Output
+
    ↓
+   
 Switch
+
    ↓
+   
 KY-008 Laser Module
+
    ↓
+   
 Laser Output
 
 The TP4056 is used for charging the battery. The switch controls the laser circuit, and no microcontroller or code is required for this build.
@@ -166,4 +188,4 @@ The whole idea is pretty simple — a 3.7V Li-ion battery powers the KY-008 lase
 
 It is a compact introduction to **basic electronics, battery-powered circuits, Li-ion charging and simple switching**, all combined into one project.
 
-Working video: Not provided
+Working video: https://youtube.com/shorts/vNFvSqzoJ1I
