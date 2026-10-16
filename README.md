@@ -26,14 +26,14 @@ The switch turns the laser on and off, while the TP4056 charging module manages 
 
 ## BOM – Bill of Materials
 
-| Component | Quantity | Price | Purpose | Purchase Link |
-|-----------|:--------:|-------:|---------|:-------------:|
-| KY-008 Laser Module | 1 | — | Laser output | Not provided |
-| 3.7V Li-ion Battery, 2200mAh | 1 | — | Power source | Not provided |
-| TP4056 USB-C Charging Module with Protection | 1 | — | Charging and battery protection | Not provided |
-| On/Off Switch | 1 | — | Turns the laser on and off | Not provided |
-| Jumper Wires | As required | — | Electrical connections | — |
-| Enclosure | As required | — | Protects and holds the components | Self made |
+| Component | Quantity | Price (INR) | Price (USD) | Purchase Link |
+|---|:---:|---:|---:|---|
+| KY-008 Laser Module | 1 | ₹145 | $1.53 | [Amazon India](https://www.amazon.in/Transmitter-Compatible-ESP8266-Raspberry-Electronics/dp/B0H2M5YPGD) |
+| 3.7V 18650 Li-ion Battery (1200mAh) | 1 | ₹70 | $0.74 | [Robocraze](https://robocraze.com/products/3-7v-1200mah-18650-battery?variant=44016221126880) |
+| TP4056 USB-C Charging Module with Protection | 1 | ₹20 | $0.21 | [Robu.in](https://robu.in/product/tp4056-1a-li-ion-lithium-battery-charging-module-with-current-protection-type-c/) |
+| 18650 Battery Holder | 1 | ₹18 | $0.19 | [FlyRobo](https://www.flyrobo.in/18650-lithium-battery-holder-for-battery-1-x-18650-cell) |
+| On/Off Switch | 1 | ₹9 | $0.10 | [Robu.in](https://robu.in/product/1-month-warranty-585/) |
+| 3D-Printed Enclosure | 1 | — | — | Self-made |
 
 ## Circuit Diagram
 
