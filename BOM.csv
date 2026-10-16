@@ -1,0 +1,8 @@
+Component,Quantity,Price (INR),Price (USD),Purpose,Purchase Link
+KY-008 Laser Module,1,145,1.53,Laser output,https://www.amazon.in/Transmitter-Compatible-ESP8266-Raspberry-Electronics/dp/B0H2M5YPGD
+3.7V 18650 Li-ion Battery (1200mAh),1,70,0.74,Power source,https://robocraze.com/products/3-7v-1200mah-18650-battery?variant=44016221126880
+TP4056 USB-C Charging Module with Protection,1,20,0.21,Battery charging and protection,https://robu.in/product/tp4056-1a-li-ion-lithium-battery-charging-module-with-current-protection-type-c/
+18650 Battery Holder,1,18,0.19,Holds the battery securely,https://www.flyrobo.in/18650-lithium-battery-holder-for-battery-1-x-18650-cell
+On/Off Switch,1,9,0.10,Turns the laser on and off,https://robu.in/product/1-month-warranty-585/
+3D-Printed Enclosure,1,,,Houses and protects the components,Self-made
+TOTAL,5,262,2.77,Excludes enclosure and printing costs,
